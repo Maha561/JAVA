@@ -2,7 +2,7 @@
 //Find the first non-repeating element in a given array arr of integers and if there is not present any non-repeating element then return 0
 
 //Note: The array consists of only positive and negative integers and not zero.//
-
+import java.util.*; //in gfg you no need to import this
 class Solution {
     public int firstNonRepeating(int[] arr) {
         HashMap<Integer,Integer> count = new HashMap<>();

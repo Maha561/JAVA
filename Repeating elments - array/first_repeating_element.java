@@ -1,5 +1,5 @@
 // Given an array arr[], find the first repeating element. The element should occur more than once and the index of its first occurrence should be the smallest.
-
+import java.util.*; //in gfg you no need to import this
 class Solution {
     public static int firstRepeated(int[] arr) {
          HashMap<Integer,Integer> count = new HashMap<>();

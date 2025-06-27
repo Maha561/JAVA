@@ -1,6 +1,7 @@
 
 // print the alternative element of an array
 // logic : very simple increment by 2
+import java.util.*; //in gfg you no need to import this
 class Solution {
     // function to print alternate elements of an array
     public ArrayList<Integer> getAlternates(int arr[]) {
